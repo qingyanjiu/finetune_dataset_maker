@@ -71,7 +71,7 @@ def save_answers(temp_answers,just_read=False):
 def save_answers_as_json(answers, file_path):
     data = []
     #print("answers",answers)
-    if 0:
+    if 1:
         for question, answer in answers.items():#根据情况修改输出格式
             item = {
                 "instruction": question,
